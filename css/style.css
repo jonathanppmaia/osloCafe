@@ -120,7 +120,7 @@ a.active, a:hover{
 /* ------------------ start nav ------------------ */ 
 
 header .menu {
-background-image: url(./image/Fondo1.jpg);
+background-image: url(/image/Fondo1.jpg);
 background-size: cover;
 background-position: center;
 height: 100vh;
