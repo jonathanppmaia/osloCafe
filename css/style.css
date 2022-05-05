@@ -1,0 +1,470 @@
+/* R E S E T */
+@import url(./reset.css);
+
+/* ----  General Style ----- */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+	list-style: none;
+}
+
+div, section{
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1{
+  font-weight: 800;
+  color: white;
+  font-size: 68px;
+  text-align: center;
+  line-height: 1;
+}
+h2{
+  font-weight: 800;
+  color: white;
+  font-size: 46px;
+  text-align: center;
+  line-height: 1;
+}
+h3{
+  font-weight: 800;
+  color: white;
+  font-size: 68px;
+  text-align: center;
+  line-height: 1;
+}
+h4{
+  font-weight: 800;
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  line-height: 1;
+  padding-left: 20px;
+}
+p{
+  font-weight: 400;
+  color: #f5f0ed;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.0;
+}
+
+strong{
+  font-weight: 800;
+}
+
+hr {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 4px;
+  color: white;
+  font-size: 18px;
+  max-width: 450px;
+  padding: 25px 35px;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0%;
+}
+
+/*--------------------- menu de navegacion --------------------*/
+
+nav i{
+  background-color: #d03b40;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+a.active, a:hover{
+  background: #d03b40;
+  transition: .5s;
+  border-radius: 5px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+/* ------------------ start nav ------------------ */ 
+
+header .menu {
+background-image: url(/image/Fondo1.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+
+header nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+
+}
+header ul{
+display: flex;
+align-items: center;
+
+}
+
+header ul li a{
+padding: 10px;
+color: #fff;
+
+}
+
+/* ------------------ end nav ------------------ */ 
+
+/* ----------- Start Content Banner ----------- */ 
+
+.banner {
+display: flex;
+flex-flow: column wrap;
+}
+
+.banner h1 {
+margin: 0px;
+text-align: center;
+line-height: 1.2;
+margin-bottom: 15px;
+margin-top: 150px;
+}
+
+.banner p {
+width: 40%;
+text-align: center;
+margin: 0 auto;
+line-height: 1.5;
+flex: 1 1 50%;
+margin-top: 15px;
+}
+
+/* ------------ End Content Banner ------------ */ 
+
+/* ---------- Start First container ----------- */ 
+
+.container {
+display: flex;
+width: 100%;
+height: 620px;
+margin: 0px;
+padding: 0px;
+}
+
+.container__half01 {
+flex: 1 1 50%;
+height: 620px;
+background-color: #d03b40;
+}
+
+.container__half01 h2 {
+color: #ded6c0;
+margin-top: 160px;
+padding: 40px;
+text-align: center;
+}
+
+.container__half01 p {
+color: #ded6c0;
+margin: 0px 100px;
+}
+
+.container__half02 {
+flex: 1 1 50%;
+height: 620px;
+background-color: #ded6c0;
+}
+
+.container__half02 h2 {
+color: #d03b40;
+margin-top: 160px;
+padding: 40px;
+}
+
+.container__half02 p {
+color: #d03b40;
+margin: 0px 100px;
+}
+
+.banner02 {
+display: flex;
+flex-flow: column wrap;
+background-image: url(/image/Fondo2.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 850px;
+}
+
+.banner02 h3{
+margin-top: 210px;
+padding: 40px;
+}
+
+.banner02 p{
+padding: 50px 200px;
+}
+
+.banner02 button{
+align-self: center;
+}
+
+/* ----------- End First container ------------ */ 
+
+/* -------------- Start Second container --------------- */
+
+.container02-bg{
+background-color: #f5f0ed;
+}
+.container02{
+  display: flex;
+  flex-flow: row wrap;
+  height: 500px;
+  margin: 100px 30px;
+}
+.container-pan{
+  display: flex;
+  flex: 1 1 50%;
+}
+.container-tartas{
+  display: flex;
+  flex: 1 1 50%;
+}
+.container-dulces{
+  display: flex;
+  flex: 1 1 50%;
+}
+.container-ingredientes{
+  display: flex;
+  flex: 1 1 50%;
+}
+.image img{
+  display: flex;
+  flex: 1 1 30%;
+  padding: 20px 20px 20px 45px;
+}
+.text{
+  display: flex;
+  flex: 1 1 70%;
+  flex-flow: column wrap;
+}
+.text p{
+  color: #3c3c3b;
+  text-align: justify;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* -------------- End Second container --------------- */
+
+/* ------------------ Start Footer ------------------- */
+
+.footer{
+  background-color: #241d1b;
+  width: 100%;
+  height: 160px;
+  margin: 0px;
+  padding: 0px;
+}
+.footer p{
+  text-align: left;
+  font-size: 16;
+  padding: 60px 40px;
+}
+
+/* ------------------ End Footer ------------------- */
+
+/*-------------- Start MediaQuary ------------*/
+
+@media (max-width: 952px){
+		nav img{
+			padding-left: 50px;
+		}
+		nav ul li a{
+			font-size: 16px;
+		}
+	}
+	@media (max-width: 1000px){
+		.checkbtn{
+			display: block;
+		}
+		ul{
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background: #d03b40;
+			top: 80px;
+			left: -100%;
+			text-align: center;
+			transition: all .5s;
+		}
+		nav ul li{
+			display: block;
+			margin: 50px 0;
+			line-height: 30px;
+		}
+		nav ul li a{
+			font-size: 18px;
+		}
+		a:hover,a.active{
+			background: none;
+			color: #ded6c0;
+		}
+		#check:checked ~ ul{
+			left: 0;
+		}
+	}
+
+  /* responsive tablet horizontal */
+	@media (min-width: 768px) and (max-width: 1300px){
+		/* menu nav */
+		nav img{
+			margin-left: 0px;
+			padding-left: 40px;
+		}
+		/* Header */
+		.container{
+			height: 100vh;
+		}
+		.banner{
+			margin: 60px 30px;
+		}
+		.banner h1{
+			font-size: 50px;
+		}
+		.banner p{
+			font-size: 26px;
+			padding: 80px 10px;
+      margin: 0 auto !important;
+		}
+		/* contenedor1 */
+		.container{
+			flex-flow: column wrap;
+			height: 800px;
+		}
+		.container__half01 h2{
+			font-size: 40px;
+			margin-top: 30px;
+			padding-bottom: 30px;
+		}
+		.container__half01 p{
+			font-size: 22px;
+		}
+		.container__half02 h2{
+			font-size: 40px;
+			margin-top: 30px;
+			padding-bottom: 30px;
+		}
+		.container__half02 p{
+			font-size: 22px;
+		}
+		/* contenedor2 */
+		.banner02{
+			background-position: left;
+			height: 900px;
+		}
+		.banner02 h3{
+			font-size: 50px;
+		}
+		.banner02 p{
+			font-size: 22px;
+			padding: 60px 40px;
+		}
+		.banner02 button{
+			font-size: 20px;
+		}
+		/* contenedor3 */
+		.contenedor3{
+			flex-flow: column;
+			height: 1600px;
+			margin: 60px 50px;
+		}
+		.contenedor-pan{
+			flex-flow: column;
+			flex: 1 1 25%;
+		}
+		.contenedor-tartas{
+			flex-flow: column;
+			flex: 1 1 25%;
+		}
+		.contenedor-dulces{
+			flex-flow: column;
+			flex: 1 1 25%;
+		}
+		.contenedor-ingredientes{
+			flex-flow: column;
+			flex: 1 1 25%;
+		}
+		.imagen{
+			flex-flow: column;
+			flex: 1 1 40%;
+		}
+		.imagen img{
+			height: 100%;
+			width: auto;
+			margin: auto;
+			padding: 0px;
+		}
+		.contenido{
+			flex-flow: column;
+			flex: 1 1 60%;
+		}
+		.contenido h4{
+			text-align: center;
+			padding: 20px;
+		}
+		.contenido p{
+			text-align: left;
+			font-size: 20px;
+			padding: 0px;
+		}
+		/* contenedor4 */
+		.contenedor4{
+			flex-flow: column;
+		}
+		/* footer */
+		.footer{
+			height: 150px;
+		}
+		.footer p{
+			text-align: center;
+			font-size: 12px;
+			margin: auto;
+			padding: 50px 40px;
+		}
+	}
+
+
