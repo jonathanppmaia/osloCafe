@@ -74,7 +74,9 @@ button{
   font-size: 18px;
   max-width: 450px;
   padding: 25px 35px;
+
 }
+
 
 ul {
   list-style: none;
@@ -239,8 +241,9 @@ padding: 40px;
 padding: 50px 200px;
 }
 
-.banner02 button{
+.banner02, a, button{
 align-self: center;
+
 }
 
 /* ----------- End First container ------------ */ 
@@ -263,6 +266,9 @@ background-color: #f5f0ed;
 .container-tartas{
   display: flex;
   flex: 1 1 50%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis:50%;
 }
 .container-dulces{
   display: flex;
@@ -349,123 +355,4 @@ background-color: #f5f0ed;
 		}
 	}
 
-  /* responsive tablet horizontal */
-	@media (min-width: 768px) and (max-width: 1300px){
-		/* menu nav */
-		nav img{
-			margin-left: 0px;
-			padding-left: 40px;
-		}
-		/* Header */
-		.container{
-			height: 100vh;
-		}
-		.banner{
-			margin: 60px 30px;
-		}
-		.banner h1{
-			font-size: 50px;
-		}
-		.banner p{
-			font-size: 26px;
-			padding: 80px 10px;
-      margin: 0 auto !important;
-		}
-		/* contenedor1 */
-		.container{
-			flex-flow: column wrap;
-			height: 800px;
-		}
-		.container__half01 h2{
-			font-size: 40px;
-			margin-top: 30px;
-			padding-bottom: 30px;
-		}
-		.container__half01 p{
-			font-size: 22px;
-		}
-		.container__half02 h2{
-			font-size: 40px;
-			margin-top: 30px;
-			padding-bottom: 30px;
-		}
-		.container__half02 p{
-			font-size: 22px;
-		}
-		/* contenedor2 */
-		.banner02{
-			background-position: left;
-			height: 900px;
-		}
-		.banner02 h3{
-			font-size: 50px;
-		}
-		.banner02 p{
-			font-size: 22px;
-			padding: 60px 40px;
-		}
-		.banner02 button{
-			font-size: 20px;
-		}
-		/* contenedor3 */
-		.contenedor3{
-			flex-flow: column;
-			height: 1600px;
-			margin: 60px 50px;
-		}
-		.contenedor-pan{
-			flex-flow: column;
-			flex: 1 1 25%;
-		}
-		.contenedor-tartas{
-			flex-flow: column;
-			flex: 1 1 25%;
-		}
-		.contenedor-dulces{
-			flex-flow: column;
-			flex: 1 1 25%;
-		}
-		.contenedor-ingredientes{
-			flex-flow: column;
-			flex: 1 1 25%;
-		}
-		.imagen{
-			flex-flow: column;
-			flex: 1 1 40%;
-		}
-		.imagen img{
-			height: 100%;
-			width: auto;
-			margin: auto;
-			padding: 0px;
-		}
-		.contenido{
-			flex-flow: column;
-			flex: 1 1 60%;
-		}
-		.contenido h4{
-			text-align: center;
-			padding: 20px;
-		}
-		.contenido p{
-			text-align: left;
-			font-size: 20px;
-			padding: 0px;
-		}
-		/* contenedor4 */
-		.contenedor4{
-			flex-flow: column;
-		}
-		/* footer */
-		.footer{
-			height: 150px;
-		}
-		.footer p{
-			text-align: center;
-			font-size: 12px;
-			margin: auto;
-			padding: 50px 40px;
-		}
-	}
-
-
+ 
